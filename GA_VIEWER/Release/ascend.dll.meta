@@ -1,0 +1,196 @@
+  Ascend.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+Assembly Ascend, Version=1.0.0.6, Culture=neutral, PublicKeyToken=25c7a393ba3f37cd: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly Ascend.Resources, Version=1.0.0.6, Culture=neutral, PublicKeyToken=9c9aecb37b1e03b6: 
+	hash=SHA1, flags=None
+Class Ascend.ExtendedColor: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.Drawing.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Ascend.ExtendedColor): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Color, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Byte, Byte, Byte): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Fields:
+    Double HueMaxValue = 360 : Public, Static, Literal, HasDefault
+    Double SaturationMaxValue = 1 : Public, Static, Literal, HasDefault
+    Double BrightnessMaxValue = 1 : Public, Static, Literal, HasDefault
+    Int32 RgbMaxValue = 255 : Public, Static, Literal, HasDefault
+  Properties:
+    System.Drawing.Color Color 'get set' : 
+    Byte Red   'get set' : 
+    Byte Green 'get set' : 
+    Byte Blue  'get set' : 
+    Byte Alpha 'get set' : 
+    Double Hue 'get set' : 
+    Double HueNonNormalized 'get set' : 
+    Double Saturation 'get set' : 
+    Double Luminance 'get set' : 
+    Boolean IsEmpty 'get ' : 
+    Boolean IsTransparent 'get ' : 
+  Methods:
+    op_Implicit(ExtendedColor): PrivateScope, Public, Static, HideBySig, SpecialName
+    HueToRgb(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    HslToRgb(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    CloneExtendedColor(): PrivateScope, Public, HideBySig
+    Clone(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Color(): PrivateScope, Public, HideBySig, SpecialName
+    set_Color(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Red(): PrivateScope, Public, HideBySig, SpecialName
+    set_Red(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_Green(): PrivateScope, Public, HideBySig, SpecialName
+    set_Green(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_Blue(): PrivateScope, Public, HideBySig, SpecialName
+    set_Blue(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_Alpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_Alpha(Byte): PrivateScope, Public, HideBySig, SpecialName
+    NonNormalizedHue(Double): PrivateScope, Public, Static, HideBySig
+    get_Hue(): PrivateScope, Public, HideBySig, SpecialName
+    set_Hue(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_HueNonNormalized(): PrivateScope, Public, HideBySig, SpecialName
+    set_HueNonNormalized(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Saturation(): PrivateScope, Public, HideBySig, SpecialName
+    set_Saturation(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Luminance(): PrivateScope, Public, HideBySig, SpecialName
+    set_Luminance(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsTransparent(): PrivateScope, Public, HideBySig, SpecialName
+    AdjustHue(Double): PrivateScope, Public, HideBySig
+    AdjustSaturation(Double): PrivateScope, Public, HideBySig
+    AdjustLuminance(Double): PrivateScope, Public, HideBySig
+Class Ascend.CornerRadiusConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.TypeConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Struct Ascend.CornerRadius: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Ascend.CornerRadius Empty : Public, Static, InitOnly
+  Properties:
+    Int32 All  'get set' : 
+    Int32 BottomLeft 'get set' : 
+    Int32 BottomRight 'get set' : 
+    Int32 TopLeft 'get set' : 
+    Int32 TopRight 'get set' : 
+  Methods:
+    get_All(): PrivateScope, Public, HideBySig, SpecialName
+    set_All(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_BottomLeft(): PrivateScope, Public, HideBySig, SpecialName
+    set_BottomLeft(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_BottomRight(): PrivateScope, Public, HideBySig, SpecialName
+    set_BottomRight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_TopLeft(): PrivateScope, Public, HideBySig, SpecialName
+    set_TopLeft(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_TopRight(): PrivateScope, Public, HideBySig, SpecialName
+    set_TopRight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeAll(): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Add(CornerRadius, CornerRadius): PrivateScope, Public, Static, HideBySig
+    Subtract(CornerRadius, CornerRadius): PrivateScope, Public, Static, HideBySig
+    op_Addition(CornerRadius, CornerRadius): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(CornerRadius, CornerRadius): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(CornerRadius, CornerRadius): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(CornerRadius, CornerRadius): PrivateScope, Public, Static, HideBySig, SpecialName
+Class Ascend.BorderColorConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.TypeConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Struct Ascend.Border: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Ascend.Border Empty : Public, Static, InitOnly
+  Properties:
+    Int32 All  'get set' : 
+    Int32 Bottom 'get set' : 
+    Int32 Left 'get set' : 
+    Int32 Right 'get set' : 
+    Int32 Top  'get set' : 
+  Methods:
+    get_All(): PrivateScope, Public, HideBySig, SpecialName
+    set_All(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Bottom(): PrivateScope, Public, HideBySig, SpecialName
+    set_Bottom(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Left(): PrivateScope, Public, HideBySig, SpecialName
+    set_Left(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Right(): PrivateScope, Public, HideBySig, SpecialName
+    set_Right(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Top(): PrivateScope, Public, HideBySig, SpecialName
+    set_Top(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeAll(): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Add(Border, Border): PrivateScope, Public, Static, HideBySig
+    Subtract(Border, Border): PrivateScope, Public, Static, HideBySig
+    op_Addition(Border, Border): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Border, Border): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Border, Border): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Border, Border): PrivateScope, Public, Static, HideBySig, SpecialName
+Struct Ascend.BorderColor: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.Drawing.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Ascend.BorderColor Empty : Public, Static, InitOnly
+  Properties:
+    System.Drawing.Color All 'get set' : 
+    System.Drawing.Color Bottom 'get set' : 
+    System.Drawing.Color Left 'get set' : 
+    System.Drawing.Color Right 'get set' : 
+    System.Drawing.Color Top 'get set' : 
+  Methods:
+    get_All(): PrivateScope, Public, HideBySig, SpecialName
+    set_All(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Bottom(): PrivateScope, Public, HideBySig, SpecialName
+    set_Bottom(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Left(): PrivateScope, Public, HideBySig, SpecialName
+    set_Left(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Right(): PrivateScope, Public, HideBySig, SpecialName
+    set_Right(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Top(): PrivateScope, Public, HideBySig, SpecialName
+    set_Top(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeAll(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    op_Equality(BorderColor, BorderColor): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(BorderColor, BorderColor): PrivateScope, Public, Static, HideBySig, SpecialName
+Class Ascend.BorderConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.TypeConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig

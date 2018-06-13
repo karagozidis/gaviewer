@@ -1,0 +1,27 @@
+  Ascend.Resources.DefaultResource.resources - Embedded, ContainedInManifestFile, 
+Assembly Ascend.Resources, Version=1.0.0.6, Culture=neutral, PublicKeyToken=9c9aecb37b1e03b6: 
+	hash=SHA1, flags=PublicKey
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class Ascend.Resources.ResourceDisplayNameAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.ComponentModel.DisplayNameAttribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String DisplayName 'get ' : 
+  Methods:
+    get_DisplayName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class Ascend.Resources.ResourceText: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetLocalizedString(String): PrivateScope, Public, Static, HideBySig
+Class Ascend.Resources.ResourceDescriptionAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.ComponentModel.DescriptionAttribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Description 'get ' : 
+  Methods:
+    get_Description(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class Ascend.Resources.ResourceCategoryAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.ComponentModel.CategoryAttribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

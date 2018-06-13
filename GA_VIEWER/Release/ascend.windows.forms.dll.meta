@@ -1,0 +1,1714 @@
+  Ascend.Windows.Forms.NavigationPane.ico - Embedded, ContainedInManifestFile, 
+  Ascend.Windows.Forms.GradientSplitBar.ico - Embedded, ContainedInManifestFile, 
+  Ascend.Windows.Forms.GradientCaption.ico - Embedded, ContainedInManifestFile, 
+  Ascend.Windows.Forms.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+  Ascend.Windows.Forms.GradientPanel.ico - Embedded, ContainedInManifestFile, 
+  Ascend.Windows.Forms.GradientLine.ico - Embedded, ContainedInManifestFile, 
+  Ascend.Windows.Forms.GradientAnimation.ico - Embedded, ContainedInManifestFile, 
+  Ascend.Windows.Forms.GradientNavigationButton.ico - Embedded, ContainedInManifestFile, 
+  Ascend.Windows.Forms.NavigationPaneOptions.resources - Embedded, ContainedInManifestFile, 
+Assembly Ascend.Windows.Forms, Version=1.0.0.6, Culture=neutral, PublicKeyToken=ecd86ece2d3eb46d: 
+	hash=SHA1, flags=PublicKey
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly Ascend, Version=1.0.0.6, Culture=neutral, PublicKeyToken=25c7a393ba3f37cd: 
+	hash=SHA1, flags=None
+Assembly Ascend.Resources, Version=1.0.0.6, Culture=neutral, PublicKeyToken=9c9aecb37b1e03b6: 
+	hash=SHA1, flags=None
+Class Ascend.Windows.Forms.NavigationPaneSplitBarConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class Ascend.Windows.Forms.NavigationPane: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.ScrollableControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AllowAddOrRemove 'get set' : 
+    Boolean AllowOptions 'get set' : 
+    Boolean AntiAlias 'get set' : 
+    Ascend.Border Border 'get set' : 
+    Ascend.BorderColor BorderColor 'get set' : 
+    Ascend.Windows.Forms.NavigationPaneButtonProperty Button 'get set' : 
+    System.Drawing.Color ButtonActiveGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonActiveGradientLowColor 'get set' : 
+    System.Drawing.Color ButtonBorderColor 'get set' : 
+    System.Drawing.Color ButtonForeColor 'get set' : 
+    System.Drawing.Font ButtonFont 'get set' : 
+    System.Drawing.Color ButtonGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonGradientLowColor 'get set' : 
+    Int32 ButtonHeight 'get set' : 
+    System.Drawing.Color ButtonHighlightGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonHighlightGradientLowColor 'get set' : 
+    System.Drawing.ContentAlignment ButtonImageAlign 'get set' : 
+    System.Drawing.ContentAlignment ButtonTextAlign 'get set' : 
+    System.Drawing.Color CaptionBorderColor 'get set' : 
+    System.Drawing.Font CaptionFont 'get set' : 
+    System.Drawing.Color CaptionForeColor 'get set' : 
+    Int32 CaptionHeight 'get set' : 
+    System.Drawing.ContentAlignment CaptionImageAlign 'get set' : 
+    System.Drawing.ContentAlignment CaptionTextAlign 'get set' : 
+    System.Drawing.Color CaptionGradientHighColor 'get set' : 
+    System.Drawing.Color CaptionGradientLowColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode CaptionGradientMode 'get set' : 
+    Ascend.Windows.Forms.NavigationPaneFooterProperty Footer 'get set' : 
+    System.Drawing.Color FooterGradientHighColor 'get set' : 
+    System.Drawing.Color FooterGradientLowColor 'get set' : 
+    System.Drawing.Color FooterHighlightGradientHighColor 'get set' : 
+    System.Drawing.Color FooterHighlightGradientLowColor 'get set' : 
+    Int32 FooterHeight 'get set' : 
+    System.Drawing.Rectangle NavigationPageRectangle 'get ' : 
+    Ascend.Windows.Forms.NavigationPageCollection NavigationPages 'get ' : 
+    Ascend.Windows.Forms.NavigationPanePage SelectedNavigationPage 'get set' : 
+    Int32 SelectedIndex 'get set' : 
+    System.Drawing.Color SplitBarGradientHighColor 'get set' : 
+    System.Drawing.Color SplitBarGradientLowColor 'get set' : 
+    Int32 SplitBarHeight 'get set' : 
+    System.Drawing.Color SplitBarBorderColor 'get set' : 
+    Ascend.Windows.Forms.NavigationPaneSplitBarProperty SplitBar 'get set' : 
+    System.String Text 'get set' : 
+    Ascend.Windows.Forms.NavigationPaneRender Render 'get ' : 
+    Ascend.Windows.Forms.RenderMode RenderMode 'get set' : 
+    System.Windows.Forms.ImageList ImageList 'get set' : 
+    System.Windows.Forms.ImageList ImageListFooter 'get set' : 
+    System.Windows.Forms.Cursor Cursor 'get set' : 
+    Boolean ImageInCaption 'get set' : 
+    Int32 NavigationPageCount 'get ' : 
+    Int32 VisibleButtonCount 'get set' : 
+    Boolean UseCompatibleTextRendering 'get set' : 
+    Ascend.Windows.Forms.NavigationPaneCaptionProperty Caption 'get set' : 
+  Events:
+    System.EventHandler AntiAliasChanged: 
+    System.EventHandler BorderChanged: 
+    System.EventHandler BorderColorChanged: 
+    System.EventHandler`1[Ascend.Windows.Forms.NavigationPaneEventArgs] Deselected: 
+    System.EventHandler`1[Ascend.Windows.Forms.NavigationPaneCancelEventArgs] Deselecting: 
+    System.EventHandler SelectedIndexChanged: 
+    System.EventHandler`1[Ascend.Windows.Forms.NavigationPaneCancelEventArgs] Selecting: 
+    System.EventHandler`1[Ascend.Windows.Forms.NavigationPaneEventArgs] Selected: 
+  Methods:
+    EnableNavigationPage(String): PrivateScope, Public, HideBySig
+    ShowButton(String): PrivateScope, Public, HideBySig
+    HideButton(String): PrivateScope, Public, HideBySig
+    get_FooterHighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterHighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPageRectangle(): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPages(): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedNavigationPage(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectedNavigationPage(NavigationPanePage): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectedIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBarGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBarGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBarHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarBorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBarBorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBar(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBar(NavigationPaneSplitBarProperty): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeSplitBar(): PrivateScope, Public, HideBySig
+    ResetSplitBar(): PrivateScope, Public, HideBySig
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Render(): PrivateScope, Public, HideBySig, SpecialName
+    get_RenderMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_RenderMode(RenderMode): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageList(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageListFooter(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageListFooter(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_Cursor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Cursor(Cursor): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ImageInCaption(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageInCaption(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPageCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_VisibleButtonCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_VisibleButtonCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeVisibleButtonCount(): PrivateScope, Public, HideBySig
+    get_UseCompatibleTextRendering(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseCompatibleTextRendering(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Caption(): PrivateScope, Public, HideBySig, SpecialName
+    set_Caption(NavigationPaneCaptionProperty): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeCaption(): PrivateScope, Public, HideBySig
+    ResetCaption(): PrivateScope, Public, HideBySig
+    LessButtons(): PrivateScope, Public, HideBySig
+    MoreButtons(): PrivateScope, Public, HideBySig
+    DeselectNavigationPage(String): PrivateScope, Public, HideBySig
+    DeselectNavigationPage(NavigationPanePage): PrivateScope, Public, HideBySig
+    DeselectNavigationPage(Int32): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Reset(): PrivateScope, Public, HideBySig
+    SelectNavigationPage(Int32): PrivateScope, Public, HideBySig
+    SelectNavigationPage(String): PrivateScope, Public, HideBySig
+    SelectNavigationPage(NavigationPanePage): PrivateScope, Public, HideBySig
+    DisableNavigationPage(String): PrivateScope, Public, HideBySig
+    add_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BorderChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BorderChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BorderColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BorderColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Deselected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Deselected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_Deselecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Deselecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_SelectedIndexChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_SelectedIndexChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Selecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Selecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_Selected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Selected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowAddOrRemove(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowAddOrRemove(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowOptions(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowOptions(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AntiAlias(): PrivateScope, Public, HideBySig, SpecialName
+    set_AntiAlias(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, HideBySig, SpecialName
+    set_Border(Border): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderColor(BorderColor): PrivateScope, Public, HideBySig, SpecialName
+    get_Button(): PrivateScope, Public, HideBySig, SpecialName
+    set_Button(NavigationPaneButtonProperty): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeButton(): PrivateScope, Public, HideBySig
+    ResetButton(): PrivateScope, Public, HideBySig
+    get_ButtonActiveGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonActiveGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonActiveGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonActiveGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonBorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonBorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonFont(Font): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeButtonFont(): PrivateScope, Public, HideBySig
+    get_ButtonGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonTextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonTextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionBorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionBorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionFont(Font): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeCaptionFont(): PrivateScope, Public, HideBySig
+    get_CaptionForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionTextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionTextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionGradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionGradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_Footer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Footer(NavigationPaneFooterProperty): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeFooter(): PrivateScope, Public, HideBySig
+    ResetFooter(): PrivateScope, Public, HideBySig
+    get_FooterGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterHighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterHighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.GradientPanel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.ScrollableControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Alpha 'get set' : 
+    Boolean AntiAlias 'get set' : 
+    Ascend.Border Border 'get set' : 
+    Ascend.BorderColor BorderColor 'get set' : 
+    Ascend.CornerRadius CornerRadius 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode GradientMode 'get set' : 
+    Single HighColorLuminance 'get set' : 
+    Boolean HighlightBorder 'get set' : 
+    Single HighlightTransitionPercent 'get set' : 
+    Single LowColorLuminance 'get set' : 
+    Ascend.Windows.Forms.RenderMode RenderMode 'get set' : 
+    Boolean ShowDisabledBackgroundColor 'get set' : 
+    Boolean TabStop 'get set' : 
+    System.Drawing.Image WatermarkImage 'get set' : 
+    Int32 WatermarkAlpha 'get set' : 
+    System.Drawing.ContentAlignment WatermarkImageAlign 'get set' : 
+    System.Drawing.Drawing2D.WrapMode WatermarkDisplayStyle 'get set' : 
+  Events:
+    System.EventHandler AlphaChanged: 
+    System.EventHandler AntiAliasChanged: 
+    System.EventHandler BorderChanged: 
+    System.EventHandler BorderColorChanged: 
+    System.EventHandler GradientLowColorChanged: 
+    System.EventHandler GradientHighColorChanged: 
+    System.EventHandler GradientModeChanged: 
+    System.EventHandler CornerRadiusChanged: 
+    System.EventHandler WatermarkAlphaChanged: 
+    System.EventHandler WatermarkImageAlignChanged: 
+    System.EventHandler WatermarkImageChanged: 
+    System.EventHandler WatermarkDisplayStyleChanged: 
+  Methods:
+    add_AlphaChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AlphaChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BorderChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BorderChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BorderColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BorderColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientModeChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientModeChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CornerRadiusChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CornerRadiusChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_WatermarkAlphaChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_WatermarkAlphaChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_WatermarkImageAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_WatermarkImageAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_WatermarkImageChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_WatermarkImageChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_WatermarkDisplayStyleChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_WatermarkDisplayStyleChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Alpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_Alpha(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_AntiAlias(): PrivateScope, Public, HideBySig, SpecialName
+    set_AntiAlias(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, HideBySig, SpecialName
+    set_Border(Border): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BorderColor(BorderColor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CornerRadius(): PrivateScope, Public, HideBySig, SpecialName
+    set_CornerRadius(CornerRadius): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_HighColorLuminance(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighColorLuminance(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightBorder(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightBorder(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightTransitionPercent(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightTransitionPercent(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_LowColorLuminance(): PrivateScope, Public, HideBySig, SpecialName
+    set_LowColorLuminance(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_RenderMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_RenderMode(RenderMode): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowDisabledBackgroundColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowDisabledBackgroundColor(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_TabStop(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabStop(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_WatermarkImage(): PrivateScope, Public, HideBySig, SpecialName
+    set_WatermarkImage(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_WatermarkAlpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_WatermarkAlpha(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_WatermarkImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_WatermarkImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_WatermarkDisplayStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_WatermarkDisplayStyle(WrapMode): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.NavigationPaneOptions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPane ParentNavigationPane 'get set' : 
+    System.Collections.ArrayList DisplayOrder 'get ' : 
+    Boolean HasChanges 'get ' : 
+  Methods:
+    get_ParentNavigationPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_ParentNavigationPane(NavigationPane): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayOrder(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasChanges(): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.GradientCaption: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ascend.Windows.Forms.GradientPanel
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AllowAnimation 'get set' : 
+    Ascend.Border Border 'get set' : 
+    Boolean CanAnimate 'get ' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode GradientMode 'get set' : 
+    System.Drawing.Image Image 'get set' : 
+    System.Drawing.ContentAlignment ImageAlign 'get set' : 
+    Int32 ImageIndex 'get set' : 
+    System.String ImageKey 'get set' : 
+    System.Windows.Forms.ImageList ImageList 'get set' : 
+    Boolean IsAnimating 'get ' : 
+    System.String Text 'get set' : 
+    System.Drawing.ContentAlignment TextAlign 'get set' : 
+    Boolean UseCompatibleTextRendering 'get set' : 
+    Boolean HidePrefix 'get set' : 
+  Events:
+    System.EventHandler ImageChanged: 
+    System.EventHandler ImageAlignChanged: 
+    System.EventHandler TextAlignChanged: 
+  Methods:
+    add_ImageChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ImageChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ImageAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ImageAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TextAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TextAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowAnimation(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowAnimation(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, HideBySig, SpecialName
+    set_Border(Border): PrivateScope, Public, HideBySig, SpecialName
+    get_CanAnimate(): PrivateScope, Public, HideBySig, SpecialName
+    get_ForeColor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_Image(): PrivateScope, Public, HideBySig, SpecialName
+    set_Image(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageKey(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageKey(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageList(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_IsAnimating(): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_UseCompatibleTextRendering(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseCompatibleTextRendering(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_HidePrefix(): PrivateScope, Public, HideBySig, SpecialName
+    set_HidePrefix(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.NavigationPaneButtonProperty: AutoLayout, AnsiClass, Class, Public, HasSecurity, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(Ascend.Windows.Forms.NavigationPane): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Ascend.Windows.Forms.NavigationPane, Int32, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.ContentAlignment): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPane NavigationPane 'get set' : 
+    System.Drawing.Color ActiveGradientHighColor 'get set' : 
+    System.Drawing.Color ActiveGradientLowColor 'get set' : 
+    System.Drawing.Color BorderColor 'get set' : 
+    System.Drawing.Font Font 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    Int32 Height 'get set' : 
+    System.Drawing.Color HighlightGradientHighColor 'get set' : 
+    System.Drawing.Color HighlightGradientLowColor 'get set' : 
+    System.Drawing.ContentAlignment ImageAlign 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.ContentAlignment TextAlign 'get set' : 
+    Boolean IsDropDownResizable 'get ' : 
+  Methods:
+    get_NavigationPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_NavigationPane(NavigationPane): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Font(): PrivateScope, Public, HideBySig, SpecialName
+    set_Font(Font): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeFont(): PrivateScope, Public, HideBySig
+    get_ForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    set_Height(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_TextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDropDownResizable(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Struct Ascend.Windows.Forms.RenderMode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ascend.Windows.Forms.RenderMode Flat = 0 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.RenderMode Gradient = 1 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.RenderMode Glass = 2 : Public, Static, Literal, HasDefault
+Class Ascend.Windows.Forms.NavigationPanePageButtonConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class Ascend.Windows.Forms.NavigationPaneCaptionProperty: AutoLayout, AnsiClass, Class, Public, HasSecurity, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(Ascend.Windows.Forms.NavigationPane): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Ascend.Windows.Forms.NavigationPane, Int32, System.Drawing.Color, System.Drawing.Color, System.Drawing.Drawing2D.LinearGradientMode, Boolean, System.Drawing.Font, System.Drawing.Color, System.Drawing.ContentAlignment, System.Drawing.ContentAlignment, System.Drawing.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPane NavigationPane 'get set' : 
+    System.Drawing.Color BorderColor 'get set' : 
+    Boolean DisplayImage 'get set' : 
+    System.Drawing.Font Font 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode GradientMode 'get set' : 
+    Int32 Height 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.ContentAlignment ImageAlign 'get set' : 
+    System.Drawing.ContentAlignment TextAlign 'get set' : 
+    Boolean IsDropDownResizable 'get ' : 
+  Methods:
+    get_NavigationPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_NavigationPane(NavigationPane): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayImage(): PrivateScope, Public, HideBySig, SpecialName
+    set_DisplayImage(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Font(): PrivateScope, Public, HideBySig, SpecialName
+    set_Font(Font): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeFont(): PrivateScope, Public, HideBySig
+    ResetFont(): PrivateScope, Public, HideBySig
+    get_ForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    set_Height(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_TextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDropDownResizable(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Interface Ascend.Windows.Forms.IGradientRender: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    Int32 Alpha 'get set' : 
+    Boolean AntiAlias 'get set' : 
+    Ascend.Border Border 'get set' : 
+    Ascend.BorderColor BorderColor 'get set' : 
+    Ascend.CornerRadius CornerRadius 'get set' : 
+    System.Drawing.Rectangle DisplayRectangle 'get set' : 
+    Boolean Enabled 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode GradientMode 'get set' : 
+    Ascend.Windows.Forms.RenderMode RenderMode 'get set' : 
+  Methods:
+    get_Alpha(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Alpha(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_AntiAlias(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_AntiAlias(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Border(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Border(Border): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_BorderColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_BorderColor(BorderColor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CornerRadius(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CornerRadius(CornerRadius): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_DisplayRectangle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_DisplayRectangle(Rectangle): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Enabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Enabled(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GradientMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_GradientMode(LinearGradientMode): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RenderMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RenderMode(RenderMode): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Render(PaintEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ResetColors(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Ascend.Windows.Forms.GradientBackgroundRender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+    Ascend.Windows.Forms.IGradientRender
+  Properties:
+    Int32 Alpha 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientBrush BackBrush 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode GradientMode 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    Ascend.CornerRadius CornerRadius 'get set' : 
+    Ascend.BorderColor BorderColor 'get set' : 
+    Ascend.Border Border 'get set' : 
+    Boolean AntiAlias 'get set' : 
+    Boolean Enabled 'get set' : 
+    System.Drawing.Rectangle DisplayRectangle 'get set' : 
+    Single HighColorLuminance 'get set' : 
+    Boolean HighlightBorder 'get set' : 
+    Single HighlightTransitionPercent 'get set' : 
+    Single LowColorLuminance 'get set' : 
+    System.Windows.Forms.Padding Padding 'get set' : 
+    Ascend.Windows.Forms.RenderMode RenderMode 'get set' : 
+    Boolean RightToLeft 'get set' : 
+    Boolean ShowDisabledBackgroundColor 'get set' : 
+    Int32 WatermarkAlpha 'get set' : 
+    System.Drawing.Image WatermarkImage 'get set' : 
+    System.Drawing.ContentAlignment WatermarkImageAlign 'get set' : 
+    System.Drawing.Drawing2D.WrapMode WatermarkDisplayStyle 'get set' : 
+    System.Drawing.Color AdjustedHighColor 'get set' : 
+    System.Drawing.Color AdjustedLowColor 'get set' : 
+  Events:
+    System.EventHandler PaddingChanged: 
+  Methods:
+    get_AdjustedHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_AdjustedHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_AdjustedLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_AdjustedLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ResetColors(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_PaddingChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PaddingChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Alpha(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Alpha(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BackBrush(): PrivateScope, Public, HideBySig, SpecialName
+    set_BackBrush(LinearGradientBrush): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientMode(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GradientMode(LinearGradientMode): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CornerRadius(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CornerRadius(CornerRadius): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BorderColor(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BorderColor(BorderColor): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Border(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Border(Border): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AntiAlias(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AntiAlias(Boolean): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Enabled(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Enabled(Boolean): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DisplayRectangle(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DisplayRectangle(Rectangle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_HighColorLuminance(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighColorLuminance(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightBorder(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightBorder(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightTransitionPercent(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightTransitionPercent(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_LowColorLuminance(): PrivateScope, Public, HideBySig, SpecialName
+    set_LowColorLuminance(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Padding(): PrivateScope, Public, HideBySig, SpecialName
+    set_Padding(Padding): PrivateScope, Public, HideBySig, SpecialName
+    get_RenderMode(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RenderMode(RenderMode): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RightToLeft(): PrivateScope, Public, HideBySig, SpecialName
+    set_RightToLeft(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowDisabledBackgroundColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowDisabledBackgroundColor(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_WatermarkAlpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_WatermarkAlpha(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_WatermarkImage(): PrivateScope, Public, HideBySig, SpecialName
+    set_WatermarkImage(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_WatermarkImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_WatermarkImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_WatermarkDisplayStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_WatermarkDisplayStyle(WrapMode): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Render(PaintEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Ascend.Windows.Forms.GradientCaptionRender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ascend.Windows.Forms.GradientBackgroundRender
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean HidePrefix 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    System.Drawing.Image Image 'get set' : 
+    System.Drawing.ContentAlignment ImageAlign 'get set' : 
+    Boolean IsImageFromImageList 'get set' : 
+    Boolean RightToLeft 'get set' : 
+    System.String Text 'get set' : 
+    System.Drawing.ContentAlignment TextAlign 'get set' : 
+    System.Drawing.Font Font 'get set' : 
+    Boolean UseCompatibleTextRendering 'get set' : 
+  Events:
+    System.EventHandler ForeColorChanged: 
+    System.EventHandler ImageAlignChanged: 
+    System.EventHandler ImageChanged: 
+    System.EventHandler TextAlignChanged: 
+    System.EventHandler TextChanged: 
+  Methods:
+    add_ForeColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ForeColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ImageAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ImageAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ImageChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ImageChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TextAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TextAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TextChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TextChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_HidePrefix(): PrivateScope, Public, HideBySig, SpecialName
+    set_HidePrefix(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Image(): PrivateScope, Public, HideBySig, SpecialName
+    set_Image(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_IsImageFromImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsImageFromImageList(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_RightToLeft(): PrivateScope, Public, HideBySig, SpecialName
+    set_RightToLeft(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_Font(): PrivateScope, Public, HideBySig, SpecialName
+    set_Font(Font): PrivateScope, Public, HideBySig, SpecialName
+    get_UseCompatibleTextRendering(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseCompatibleTextRendering(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Render(PaintEventArgs): PrivateScope, Public, Virtual, HideBySig
+Class Ascend.Windows.Forms.NavigationPaneFooterConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class Ascend.Windows.Forms.NavigationPanePageFooterProperty: AutoLayout, AnsiClass, Class, Public, HasSecurity, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(Ascend.Windows.Forms.NavigationPanePage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Ascend.Windows.Forms.NavigationPanePage, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPanePage NavigationPanePage 'get set' : 
+    System.Drawing.Image Image 'get set' : 
+    Int32 ImageIndex 'get set' : 
+    System.String ImageKey 'get set' : 
+    System.Windows.Forms.ImageList ImageList 'get set' : 
+    Boolean IsDropDownResizable 'get ' : 
+  Methods:
+    get_NavigationPanePage(): PrivateScope, Public, HideBySig, SpecialName
+    set_NavigationPanePage(NavigationPanePage): PrivateScope, Public, HideBySig, SpecialName
+    get_Image(): PrivateScope, Public, HideBySig, SpecialName
+    set_Image(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageKey(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageKey(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageList(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDropDownResizable(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class Ascend.Windows.Forms.NavigationPanePageButtonProperty: AutoLayout, AnsiClass, Class, Public, HasSecurity, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(Ascend.Windows.Forms.NavigationPanePage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Ascend.Windows.Forms.NavigationPanePage, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPanePage NavigationPanePage 'get set' : 
+    System.Drawing.Color ActiveGradientHighColor 'get set' : 
+    System.Drawing.Color ActiveGradientLowColor 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    System.Drawing.Color HighlightGradientHighColor 'get set' : 
+    System.Drawing.Color HighlightGradientLowColor 'get set' : 
+    System.Drawing.Image Image 'get set' : 
+    System.Drawing.ContentAlignment ImageAlign 'get set' : 
+    Int32 ImageIndex 'get set' : 
+    System.String ImageKey 'get set' : 
+    System.Windows.Forms.ImageList ImageList 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Font ButtonFont 'get set' : 
+    System.String Text 'get set' : 
+    System.Drawing.ContentAlignment TextAlign 'get set' : 
+    System.String ToolTipText 'get set' : 
+    Boolean IsDropDownResizable 'get ' : 
+  Methods:
+    get_NavigationPanePage(): PrivateScope, Public, HideBySig, SpecialName
+    set_NavigationPanePage(NavigationPanePage): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeActiveGradientHighColor(): PrivateScope, Public, HideBySig
+    get_ActiveGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeActiveGradientLowColor(): PrivateScope, Public, HideBySig
+    get_ForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeForeColor(): PrivateScope, Public, HideBySig
+    get_HighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeHighlightGradientHighColor(): PrivateScope, Public, HideBySig
+    get_HighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeHighlightGradientLowColor(): PrivateScope, Public, HideBySig
+    get_Image(): PrivateScope, Public, HideBySig, SpecialName
+    set_Image(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeImageAlign(): PrivateScope, Public, HideBySig
+    get_ImageIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageKey(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageKey(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageList(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeGradientHighColor(): PrivateScope, Public, HideBySig
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeGradientLowColor(): PrivateScope, Public, HideBySig
+    get_ButtonFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonFont(Font): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeButtonFont(): PrivateScope, Public, HideBySig
+    ResetButtonFont(): PrivateScope, Public, HideBySig
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeTextAlign(): PrivateScope, Public, HideBySig
+    get_ToolTipText(): PrivateScope, Public, HideBySig, SpecialName
+    set_ToolTipText(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDropDownResizable(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class Ascend.Windows.Forms.NavigationPanePage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.ContainerControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Text 'get set' : 
+    System.Drawing.ContentAlignment TextAlign 'get set' : 
+    System.Drawing.Rectangle ButtonRectangle 'get set' : 
+    Boolean Active 'get set' : 
+    System.Drawing.Image Image 'get set' : 
+    System.Drawing.ContentAlignment ImageAlign 'get set' : 
+    System.Drawing.Image ImageFooter 'get set' : 
+    Boolean ButtonMinimized 'get set' : 
+    Boolean ButtonVisible 'get set' : 
+    System.Drawing.Color ActiveGradientHighColor 'get set' : 
+    System.Drawing.Color ActiveGradientLowColor 'get set' : 
+    System.Drawing.Color HighlightGradientHighColor 'get set' : 
+    System.Drawing.Color HighlightGradientLowColor 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Font ButtonFont 'get set' : 
+    System.Drawing.Color ButtonForeColor 'get set' : 
+    Int32 ImageIndex 'get set' : 
+    Int32 ImageIndexFooter 'get set' : 
+    System.String Key 'get set' : 
+    System.Windows.Forms.Padding Margin 'get set' : 
+    System.Drawing.Size MinimumSize 'get set' : 
+    System.Drawing.Size Size 'get set' : 
+    System.String ImageKey 'get set' : 
+    System.String ImageKeyFooter 'get set' : 
+    System.Windows.Forms.ImageList ImageList 'get set' : 
+    System.Windows.Forms.ImageList ImageListFooter 'get set' : 
+    System.Drawing.Point Location 'get set' : 
+    System.String ToolTipText 'get set' : 
+    System.Drawing.Color BackColor 'get set' : 
+    Ascend.Windows.Forms.NavigationPanePageFooterProperty Footer 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    Boolean ButtonMinimizedVisible 'get set' : 
+    Int32 ButtonDisplayOrder 'get set' : 
+    Ascend.Windows.Forms.NavigationPanePageButtonProperty Button 'get set' : 
+  Events:
+    System.EventHandler ActiveChanged: 
+    System.EventHandler ImageAlignChanged: 
+    System.EventHandler ImageIndexChanged: 
+    System.EventHandler ImageIndexFooterChanged: 
+    System.EventHandler TextAlignChanged: 
+    System.EventHandler ActiveGradientLowColorChanged: 
+  Methods:
+    get_ToolTipText(): PrivateScope, Public, HideBySig, SpecialName
+    set_ToolTipText(String): PrivateScope, Public, HideBySig, SpecialName
+    get_BackColor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_BackColor(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Footer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Footer(NavigationPanePageFooterProperty): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeFooter(): PrivateScope, Public, HideBySig
+    get_ForeColor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ButtonMinimizedVisible(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonMinimizedVisible(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonDisplayOrder(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonDisplayOrder(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Button(): PrivateScope, Public, HideBySig, SpecialName
+    set_Button(NavigationPanePageButtonProperty): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeButton(): PrivateScope, Public, HideBySig
+    ResetButton(): PrivateScope, Public, HideBySig
+    add_ActiveChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ImageAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ImageAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ImageIndexChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ImageIndexChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ImageIndexFooterChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ImageIndexFooterChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_TextAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_TextAlignChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeTextAlign(): PrivateScope, Public, HideBySig
+    get_ButtonRectangle(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonRectangle(Rectangle): PrivateScope, Public, HideBySig, SpecialName
+    get_Active(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Active(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Image(): PrivateScope, Public, HideBySig, SpecialName
+    set_Image(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeImageAlign(): PrivateScope, Public, HideBySig
+    get_ImageFooter(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageFooter(Image): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonMinimized(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonMinimized(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonVisible(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonVisible(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeActiveGradientHighColor(): PrivateScope, Public, HideBySig
+    get_ActiveGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeActiveGradientLowColor(): PrivateScope, Public, HideBySig
+    get_HighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeHighlightGradientHighColor(): PrivateScope, Public, HideBySig
+    get_HighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeHighlightGradientLowColor(): PrivateScope, Public, HideBySig
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeGradientHighColor(): PrivateScope, Public, HideBySig
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeGradientLowColor(): PrivateScope, Public, HideBySig
+    get_ButtonFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonFont(Font): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeButtonForeColor(): PrivateScope, Public, HideBySig
+    get_ImageIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageIndexFooter(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageIndexFooter(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Key(): PrivateScope, Public, HideBySig, SpecialName
+    set_Key(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Margin(): PrivateScope, Public, HideBySig, SpecialName
+    set_Margin(Padding): PrivateScope, Public, HideBySig, SpecialName
+    get_MinimumSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_MinimumSize(Size): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(Size): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageKey(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageKey(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageKeyFooter(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageKeyFooter(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageList(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageListFooter(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImageListFooter(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    set_Location(Point): PrivateScope, Public, HideBySig, SpecialName
+    ShouldSerializeLocation(): PrivateScope, Public, HideBySig
+Class Ascend.Windows.Forms.GradientAnimation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Control
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Alpha 'get set' : 
+    Boolean AntiAlias 'get set' : 
+    System.Drawing.Color BackColor 'get set' : 
+    Ascend.Border Border 'get set' : 
+    Ascend.BorderColor BorderColor 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode GradientMode 'get set' : 
+    Int32 Interval 'get set' : 
+    Int32 Speed 'get set' : 
+  Events:
+    System.EventHandler AlphaChanged: 
+    System.EventHandler AntiAliasChanged: 
+    System.EventHandler BorderChanged: 
+    System.EventHandler BorderColorChanged: 
+    System.EventHandler GradientLowColorChanged: 
+    System.EventHandler GradientHighColorChanged: 
+    System.EventHandler GradientModeChanged: 
+  Methods:
+    add_AlphaChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AlphaChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BorderChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BorderChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BorderColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BorderColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientModeChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientModeChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Alpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_Alpha(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_AntiAlias(): PrivateScope, Public, HideBySig, SpecialName
+    set_AntiAlias(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_BackColor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_BackColor(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, HideBySig, SpecialName
+    set_Border(Border): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderColor(BorderColor): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_Interval(): PrivateScope, Public, HideBySig, SpecialName
+    set_Interval(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Speed(): PrivateScope, Public, HideBySig, SpecialName
+    set_Speed(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Start(): PrivateScope, Public, HideBySig
+    Stop(): PrivateScope, Public, HideBySig
+Class Ascend.Windows.Forms.GlassBackgroundRender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ascend.Windows.Forms.GradientBackgroundRender
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Ascend.Windows.Forms.NavigationPaneRender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Ascend.Windows.Forms.NavigationPane): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Ascend.Border Border 'get set' : 
+    Ascend.BorderColor BorderColor 'get set' : 
+    Boolean Enabled 'get set' : 
+    System.Drawing.Rectangle DisplayRectangle 'get set' : 
+    Boolean AntiAlias 'get set' : 
+    System.Drawing.Color BackColor 'get set' : 
+    System.Drawing.Rectangle SplitBarRectangle 'get ' : 
+    System.Drawing.Color SplitBarGradientHighColor 'get set' : 
+    System.Drawing.Color SplitBarGradientLowColor 'get set' : 
+    Int32 SplitBarHeight 'get set' : 
+    System.Drawing.Color SplitBarBorderColor 'get set' : 
+    Int32 HighlightIndex 'get set' : 
+    Ascend.Windows.Forms.RenderMode RenderMode 'get set' : 
+    Int32 ActiveIndex 'get set' : 
+    System.Drawing.Rectangle FooterConfigureRectangle 'get ' : 
+    System.Drawing.Color FooterGradientHighColor 'get set' : 
+    System.Drawing.Color FooterGradientLowColor 'get set' : 
+    Int32 FooterHeight 'get set' : 
+    System.Drawing.Color FooterHighlightGradientHighColor 'get set' : 
+    System.Drawing.Color FooterHighlightGradientLowColor 'get set' : 
+    Boolean ConfigureFooterHighlight 'get set' : 
+    System.Drawing.Rectangle FooterRectangle 'get ' : 
+    System.Drawing.Rectangle CaptionRectangle 'get ' : 
+    System.Drawing.Color ButtonActiveGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonActiveGradientLowColor 'get set' : 
+    System.Drawing.Color ButtonBorderColor 'get set' : 
+    System.Drawing.Color ButtonForeColor 'get set' : 
+    System.Drawing.Font ButtonFont 'get set' : 
+    System.Drawing.Color ButtonGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonGradientLowColor 'get set' : 
+    Int32 ButtonHeight 'get set' : 
+    System.Drawing.Color ButtonHighlightGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonHighlightGradientLowColor 'get set' : 
+    System.Drawing.ContentAlignment ButtonImageAlign 'get set' : 
+    System.Drawing.ContentAlignment ButtonTextAlign 'get set' : 
+    Int32 DisplayButtonCount 'get set' : 
+    System.Drawing.Color CaptionBorderColor 'get set' : 
+    Int32 CaptionHeight 'get set' : 
+    System.Drawing.ContentAlignment CaptionImageAlign 'get set' : 
+    System.Drawing.ContentAlignment CaptionTextAlign 'get set' : 
+    System.Drawing.Font CaptionFont 'get set' : 
+    System.Drawing.Color CaptionForeColor 'get set' : 
+    System.Drawing.Color CaptionGradientHighColor 'get set' : 
+    System.Drawing.Color CaptionGradientLowColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode CaptionGradientMode 'get set' : 
+    Boolean RightToLeft 'get set' : 
+    Boolean ShowImageInCaption 'get set' : 
+    System.Collections.ArrayList DisplayOrder 'get ' : 
+    Boolean UseCompatibleTextRendering 'get set' : 
+  Events:
+    System.EventHandler AntiAliasChanged: 
+    System.EventHandler BorderChanged: 
+    System.EventHandler BorderColorChanged: 
+    System.EventHandler BackColorChanged: 
+  Methods:
+    set_CaptionImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionTextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionTextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionFont(Font): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionGradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionGradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_RightToLeft(): PrivateScope, Public, HideBySig, SpecialName
+    set_RightToLeft(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowImageInCaption(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowImageInCaption(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayOrder(): PrivateScope, Public, HideBySig, SpecialName
+    get_UseCompatibleTextRendering(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseCompatibleTextRendering(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Render(PaintEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnBackColorChanged(EventArgs): PrivateScope, Public, HideBySig
+    ResetColors(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BorderChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BorderChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BorderColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BorderColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BackColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BackColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, HideBySig, SpecialName
+    set_Border(Border): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderColor(BorderColor): PrivateScope, Public, HideBySig, SpecialName
+    get_Enabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_Enabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayRectangle(): PrivateScope, Public, HideBySig, SpecialName
+    set_DisplayRectangle(Rectangle): PrivateScope, Public, HideBySig, SpecialName
+    get_AntiAlias(): PrivateScope, Public, HideBySig, SpecialName
+    set_AntiAlias(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_BackColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BackColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarRectangle(): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBarGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBarGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBarHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitBarBorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_SplitBarBorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_RenderMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_RenderMode(RenderMode): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterConfigureRectangle(): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterHighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterHighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterHighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_FooterHighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ConfigureFooterHighlight(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConfigureFooterHighlight(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_FooterRectangle(): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionRectangle(): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonActiveGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonActiveGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonActiveGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonActiveGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonBorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonBorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonFont(Font): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonImageAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonTextAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonTextAlign(ContentAlignment): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayButtonCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_DisplayButtonCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionBorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionBorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_CaptionHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CaptionImageAlign(): PrivateScope, Public, HideBySig, SpecialName
+Struct Ascend.Windows.Forms.GradientSplitBarDirection: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ascend.Windows.Forms.GradientSplitBarDirection Horizontal = 0 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.GradientSplitBarDirection Vertical = 1 : Public, Static, Literal, HasDefault
+Class Ascend.Windows.Forms.GradientSplitBar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ascend.Windows.Forms.GradientPanel
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 BumpCount 'get set' : 
+    Ascend.Windows.Forms.GradientSplitBarDirection Direction 'get set' : 
+  Events:
+    System.EventHandler BumpCountChanged: 
+    System.EventHandler DirectionChanged: 
+  Methods:
+    add_BumpCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BumpCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DirectionChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DirectionChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_BumpCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_BumpCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Direction(): PrivateScope, Public, HideBySig, SpecialName
+    set_Direction(GradientSplitBarDirection): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.GradientNavigationButtonRender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ascend.Windows.Forms.GradientCaptionRender
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Active 'get set' : 
+    Boolean MouseOverHighlight 'get set' : 
+    System.Drawing.Color HighlightGradientLowColor 'get set' : 
+    System.Drawing.Color HighlightGradientHighColor 'get set' : 
+    Boolean ActiveOnClick 'get set' : 
+    System.Drawing.Color ActiveGradientLowColor 'get set' : 
+    System.Drawing.Color ActiveGradientHighColor 'get set' : 
+    Boolean Highlight 'get set' : 
+  Events:
+    System.EventHandler MouseOverHighlightChanged: 
+    System.EventHandler HighlightGradientLowColorChanged: 
+    System.EventHandler HighlightGradientHighColorChanged: 
+    System.EventHandler ActiveOnClickChanged: 
+    System.EventHandler ActiveGradientLowColorChanged: 
+    System.EventHandler ActiveGradientHighColorChanged: 
+    System.EventHandler ActiveChanged: 
+    System.EventHandler HighlightChanged: 
+  Methods:
+    add_MouseOverHighlightChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MouseOverHighlightChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_HighlightGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_HighlightGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_HighlightGradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_HighlightGradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveOnClickChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveOnClickChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveGradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveGradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_HighlightChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_HighlightChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Active(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Active(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MouseOverHighlight(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MouseOverHighlight(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_HighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveOnClick(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ActiveOnClick(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ActiveGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Highlight(): PrivateScope, Public, HideBySig, SpecialName
+    set_Highlight(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.GradientLine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Control
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Alpha 'get set' : 
+    Boolean AntiAlias 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode GradientMode 'get set' : 
+    Single HighColorLuminance 'get set' : 
+    Single HighlightTransitionPercent 'get set' : 
+    Single LowColorLuminance 'get set' : 
+    Ascend.Windows.Forms.RenderMode RenderMode 'get set' : 
+    Boolean TabStop 'get set' : 
+  Events:
+    System.EventHandler AlphaChanged: 
+    System.EventHandler AntiAliasChanged: 
+    System.EventHandler GradientLowColorChanged: 
+    System.EventHandler GradientHighColorChanged: 
+    System.EventHandler GradientModeChanged: 
+  Methods:
+    add_AlphaChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AlphaChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AntiAliasChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GradientModeChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GradientModeChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Alpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_Alpha(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_AntiAlias(): PrivateScope, Public, HideBySig, SpecialName
+    set_AntiAlias(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_HighColorLuminance(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighColorLuminance(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightTransitionPercent(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightTransitionPercent(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_LowColorLuminance(): PrivateScope, Public, HideBySig, SpecialName
+    set_LowColorLuminance(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_RenderMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_RenderMode(RenderMode): PrivateScope, Public, HideBySig, SpecialName
+    get_TabStop(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabStop(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Struct Ascend.Windows.Forms.GradientNavigationButtonAction: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ascend.Windows.Forms.GradientNavigationButtonAction Selecting = 0 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.GradientNavigationButtonAction Selected = 1 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.GradientNavigationButtonAction Deselecting = 2 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.GradientNavigationButtonAction Deselected = 3 : Public, Static, Literal, HasDefault
+Class Ascend.Windows.Forms.GradientNavigationButtonCancelEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.CancelEventArgs
+    Void .ctor(Boolean, Ascend.Windows.Forms.GradientNavigationButtonAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.GradientNavigationButtonAction Action 'get ' : 
+  Methods:
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.NavigationPaneSplitBarProperty: AutoLayout, AnsiClass, Class, Public, HasSecurity, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(Ascend.Windows.Forms.NavigationPane): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Ascend.Windows.Forms.NavigationPane, Int32, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPane NavigationPane 'get set' : 
+    Int32 Height 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Color BorderColor 'get set' : 
+    Boolean IsDropDownResizable 'get ' : 
+  Methods:
+    get_NavigationPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_NavigationPane(NavigationPane): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    set_Height(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDropDownResizable(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetEditStyle(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class Ascend.Windows.Forms.NavigationPanePageRender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Ascend.Windows.Forms.NavigationPanePage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean Enabled 'get set' : 
+    System.Drawing.Color BackColor 'get set' : 
+    Ascend.Windows.Forms.RenderMode RenderMode 'get set' : 
+    System.Drawing.Color ButtonActiveGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonActiveGradientLowColor 'get set' : 
+    System.Drawing.Color ButtonForeColor 'get set' : 
+    System.Drawing.Font ButtonFont 'get set' : 
+    System.Drawing.Color ButtonGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonGradientLowColor 'get set' : 
+    Int32 ButtonHeight 'get set' : 
+    System.Drawing.Color ButtonHighlightGradientHighColor 'get set' : 
+    System.Drawing.Color ButtonHighlightGradientLowColor 'get set' : 
+    Boolean RightToLeft 'get set' : 
+    Boolean UseCompatibleTextRendering 'get set' : 
+  Events:
+    System.EventHandler BackColorChanged: 
+  Methods:
+    add_BackColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BackColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Enabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_Enabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_BackColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BackColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_RenderMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_RenderMode(RenderMode): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonActiveGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonActiveGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonActiveGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonActiveGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonFont(Font): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHeight(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ButtonHighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ButtonHighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_RightToLeft(): PrivateScope, Public, HideBySig, SpecialName
+    set_RightToLeft(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UseCompatibleTextRendering(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseCompatibleTextRendering(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Render(PaintEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnBackColorChanged(EventArgs): PrivateScope, Public, HideBySig
+    ResetColors(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Ascend.Windows.Forms.NavigationPanePageFooterConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class Ascend.Windows.Forms.GradientNavigationButton: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ascend.Windows.Forms.GradientCaption
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Active 'get set' : 
+    System.Drawing.Color ActiveGradientHighColor 'get set' : 
+    System.Drawing.Color ActiveGradientLowColor 'get set' : 
+    Boolean ActiveOnClick 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    Boolean FocusHighlight 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Color HighlightGradientHighColor 'get set' : 
+    System.Drawing.Color HighlightGradientLowColor 'get set' : 
+    Boolean MouseOverHighlight 'get set' : 
+    Boolean ShowBorderOnHighlight 'get set' : 
+    Boolean StayActiveAfterClick 'get set' : 
+  Events:
+    System.EventHandler ActiveChanged: 
+    System.EventHandler ActiveGradientHighColorChanged: 
+    System.EventHandler ActiveGradientLowColorChanged: 
+    System.EventHandler ActiveOnClickChanged: 
+    System.EventHandler Dehighlighted: 
+    System.EventHandler`1[Ascend.Windows.Forms.GradientNavigationButtonEventArgs] Deselected: 
+    System.EventHandler`1[Ascend.Windows.Forms.GradientNavigationButtonCancelEventArgs] Deselecting: 
+    System.EventHandler Highlighted: 
+    System.EventHandler HighlightGradientLowColorChanged: 
+    System.EventHandler HighlightGradientHighColorChanged: 
+    System.EventHandler MouseOverHighlightChanged: 
+    System.EventHandler`1[Ascend.Windows.Forms.GradientNavigationButtonEventArgs] Selected: 
+    System.EventHandler`1[Ascend.Windows.Forms.GradientNavigationButtonCancelEventArgs] Selecting: 
+  Methods:
+    add_ActiveChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveGradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveGradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveOnClickChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveOnClickChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Dehighlighted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Dehighlighted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Deselected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Deselected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_Deselecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Deselecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_Highlighted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Highlighted(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_HighlightGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_HighlightGradientLowColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_HighlightGradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_HighlightGradientHighColorChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MouseOverHighlightChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MouseOverHighlightChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Selected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Selected(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_Selecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_Selecting(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Active(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Active(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ActiveGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveOnClick(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ActiveOnClick(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ForeColor(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_FocusHighlight(): PrivateScope, Public, HideBySig, SpecialName
+    set_FocusHighlight(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_MouseOverHighlight(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MouseOverHighlight(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ShowBorderOnHighlight(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowBorderOnHighlight(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_StayActiveAfterClick(): PrivateScope, Public, HideBySig, SpecialName
+    set_StayActiveAfterClick(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.NavigationPaneFooterProperty: AutoLayout, AnsiClass, Class, Public, HasSecurity, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(Ascend.Windows.Forms.NavigationPane): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Ascend.Windows.Forms.NavigationPane, Int32, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPane NavigationPane 'get set' : 
+    Int32 Height 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Color HighlightGradientLowColor 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Color HighlightGradientHighColor 'get set' : 
+    Boolean IsDropDownResizable 'get ' : 
+  Methods:
+    get_NavigationPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_NavigationPane(NavigationPane): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    set_Height(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightGradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_HighlightGradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightGradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDropDownResizable(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class Ascend.Windows.Forms.NavigationPaneCaptionConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class Ascend.Windows.Forms.GradientAnimationRender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Int32 Alpha 'get set' : 
+    System.Drawing.SolidBrush BackBrush 'get set' : 
+    Boolean BitmapChange 'get set' : 
+    Int32 BitmapOffset 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode GradientMode 'get set' : 
+    System.Drawing.Color GradientLowColor 'get set' : 
+    System.Drawing.Color GradientHighColor 'get set' : 
+    System.Drawing.Graphics Graphics 'get set' : 
+    Ascend.CornerRadius CornerRadius 'get set' : 
+    Ascend.BorderColor BorderColor 'get set' : 
+    Ascend.Border Border 'get set' : 
+    Boolean AntiAlias 'get set' : 
+    Boolean Enabled 'get set' : 
+    System.Drawing.Rectangle DisplayRectangle 'get set' : 
+    System.Drawing.Color AdjustedHighColor 'get set' : 
+    System.Drawing.Color AdjustedLowColor 'get set' : 
+  Methods:
+    get_Alpha(): PrivateScope, Public, HideBySig, SpecialName
+    set_Alpha(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_BackBrush(): PrivateScope, Public, HideBySig, SpecialName
+    set_BackBrush(SolidBrush): PrivateScope, Public, HideBySig, SpecialName
+    get_BitmapChange(): PrivateScope, Public, HideBySig, SpecialName
+    set_BitmapChange(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_BitmapOffset(): PrivateScope, Public, HideBySig, SpecialName
+    set_BitmapOffset(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_GradientHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_Graphics(): PrivateScope, Public, HideBySig, SpecialName
+    set_Graphics(Graphics): PrivateScope, Public, HideBySig, SpecialName
+    get_CornerRadius(): PrivateScope, Public, HideBySig, SpecialName
+    set_CornerRadius(CornerRadius): PrivateScope, Public, HideBySig, SpecialName
+    get_BorderColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BorderColor(BorderColor): PrivateScope, Public, HideBySig, SpecialName
+    get_Border(): PrivateScope, Public, HideBySig, SpecialName
+    set_Border(Border): PrivateScope, Public, HideBySig, SpecialName
+    get_AntiAlias(): PrivateScope, Public, HideBySig, SpecialName
+    set_AntiAlias(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Enabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_Enabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayRectangle(): PrivateScope, Public, HideBySig, SpecialName
+    set_DisplayRectangle(Rectangle): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Render(PaintEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_AdjustedHighColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_AdjustedHighColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_AdjustedLowColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_AdjustedLowColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    ResetColors(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MoveNext(): PrivateScope, Public, HideBySig
+    MovePrevious(): PrivateScope, Public, HideBySig
+Class Ascend.Windows.Forms.NavigationPageCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Ascend.Windows.Forms.NavigationPane): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.IList
+    System.Collections.ICollection
+    System.Collections.IEnumerable
+    System.Collections.Generic.IList`1[Ascend.Windows.Forms.NavigationPanePage]
+    System.Collections.Generic.ICollection`1[Ascend.Windows.Forms.NavigationPanePage]
+    System.Collections.Generic.IEnumerable`1[Ascend.Windows.Forms.NavigationPanePage]
+  Properties:
+    Int32 Count 'get ' : 
+    Boolean IsSynchronized 'get ' : 
+    System.Object SyncRoot 'get ' : 
+    Boolean IsFixedSize 'get ' : 
+    Boolean IsReadOnly 'get ' : 
+    Ascend.Windows.Forms.NavigationPanePage Item [Int32] 'get set' : 
+    Int32 DisplayCount 'get ' : 
+    Int32 VisibleCount 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsSynchronized(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SyncRoot(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    CopyTo(Array, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CopyTo(NavigationPanePage[], Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_IsFixedSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsReadOnly(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Contains(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Contains(NavigationPanePage): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    IndexOf(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    IndexOf(NavigationPanePage): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    IndexOf(String): PrivateScope, Public, HideBySig
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Add(NavigationPanePage): PrivateScope, Public, HideBySig
+    AddRange(NavigationPanePage[]): PrivateScope, Public, HideBySig
+    Remove(NavigationPanePage): PrivateScope, Public, HideBySig
+    RemoveAt(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Insert(Int32, NavigationPanePage): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Item(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Item(Int32, NavigationPanePage): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DisplayCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_VisibleCount(): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.GradientNavigationButtonEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(Ascend.Windows.Forms.GradientNavigationButtonAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.GradientNavigationButtonAction Action 'get ' : 
+  Methods:
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.NavigationPaneEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(Ascend.Windows.Forms.NavigationPanePage, Int32, System.String, Ascend.Windows.Forms.NavigationPaneAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPaneAction Action 'get ' : 
+    Int32 NavigationPanePageIndex 'get ' : 
+    System.String NavigationPanePageKey 'get ' : 
+    Ascend.Windows.Forms.NavigationPanePage NavigationPanePage 'get ' : 
+  Methods:
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPanePageIndex(): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPanePageKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPanePage(): PrivateScope, Public, HideBySig, SpecialName
+Struct Ascend.Windows.Forms.NavigationPaneAction: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Ascend.Windows.Forms.NavigationPaneAction Selecting = 0 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.NavigationPaneAction Selected = 1 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.NavigationPaneAction Deselecting = 2 : Public, Static, Literal, HasDefault
+    Ascend.Windows.Forms.NavigationPaneAction Deselected = 3 : Public, Static, Literal, HasDefault
+Class Ascend.Windows.Forms.NavigationPaneCancelEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.CancelEventArgs
+    Void .ctor(Ascend.Windows.Forms.NavigationPanePage, Int32, System.String, Boolean, Ascend.Windows.Forms.NavigationPaneAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.NavigationPaneAction Action 'get ' : 
+    Int32 NavigationPanePageIndex 'get ' : 
+    System.String NavigationPanePageKey 'get ' : 
+    Ascend.Windows.Forms.NavigationPanePage NavigationPanePage 'get ' : 
+  Methods:
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPanePageIndex(): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPanePageKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_NavigationPanePage(): PrivateScope, Public, HideBySig, SpecialName
+Class Ascend.Windows.Forms.GradientSplitBarRender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Ascend.Windows.Forms.GradientBackgroundRender
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Ascend.Windows.Forms.GradientSplitBarDirection Direction 'get set' : 
+    Int32 BumpCount 'get set' : 
+  Events:
+    System.EventHandler DirectionChanged: 
+    System.EventHandler BumpCountChanged: 
+  Methods:
+    add_DirectionChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DirectionChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BumpCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BumpCountChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Direction(): PrivateScope, Public, HideBySig, SpecialName
+    set_Direction(GradientSplitBarDirection): PrivateScope, Public, HideBySig, SpecialName
+    get_BumpCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_BumpCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Render(PaintEventArgs): PrivateScope, Public, Virtual, HideBySig
+Class Ascend.Windows.Forms.NavigationPaneButtonConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
